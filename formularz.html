@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang = "pl-PL">
+<head>
+<meta charset= "utf-8"/>
+<title>Google search</title>
+<meta name= "description" content= "Wyszukaj cos"/>
+<meta http-equiv= "X-UA-Compatible" content= "IE=edge" />
+<link rel="stylesheet" href= "style.css" type= "text/css" />
+<link href="https://fonts.googleapis.com/css?family=Lato:400,700&amp;subset=latin-ext" rel="stylesheet">   
+</head>
+<body>
+
+
+<div id="container">
+<form  action="https://www.google.pl/search" target="_blank">
+  Wyszukaj:<p></p>
+  <input type="text" name="q" value="" placeholder="Coś tam, coś tam" onfocus="this.placeholder=''" onblur="this.placeholder='Coś tam, coś tam'">
+  <p></p>
+   <p></p>
+  <input type="submit" value="Zatwierdź" onclick="alert('Nastąpi przekierowanie na stronę Google!')">
+  <input type="reset" value="Skasuj">
+</form> 
+</div>
+
+</body>
+
+</html>
